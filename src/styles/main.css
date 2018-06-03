@@ -1,0 +1,25 @@
+@import "./components/card.css";
+@import "./components/card-grid.css";
+@import "./components/img.css";
+
+@tailwind preflight;
+@tailwind components;
+
+h1,
+h2 {
+  @apply .mt-8 .mb-4 .font-sans .font-medium;
+}
+
+h3 {
+  @apply .mt-8 .mb-4 .font-serif .font-bold;
+}
+
+.btn {
+  @apply .font-bold .py-2 .px-4 .rounded .bg-blue .text-white;
+}
+
+.badge {
+  @apply inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker;
+}
+
+@tailwind utilities;

@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <img src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <tailwind-test />>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import TailwindTest from '@/components/TailwindTest.vue'
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    TailwindTest
   }
 }
 </script>

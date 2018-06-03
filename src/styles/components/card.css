@@ -1,0 +1,15 @@
+.card {
+  @apply .max-w-sm .rounded .overflow-hidden .shadow-lg;
+}
+
+.card-image {
+  @apply .w-full;
+}
+
+.card-heading {
+  @apply .font-bold .text-xl .mb-2;
+}
+
+.card-content {
+  @apply .px-6 .py-4;
+}
