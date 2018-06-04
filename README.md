@@ -10,10 +10,10 @@ Simply clone the respository and `npm install`.
 The process of setting up tailwind with Vue is somewhat tricky, and it doesn't seem to work out of the box with some of the defaults of some of the various Vue-cli templates. I've culled information from a variety of sources to put together this template. Here's the process I used:
 
 1. On the command line: `vue create vue-tailwind-template`. You may want to make sure you have the latest update: `npm i -g -u @vue/cli`.
-  a. I selected manual rather than default.
-  b. For this template, I selected Router and Vuex, but I did _not_ select CSS Pre-processors, as postcss appears to be more-or-less supported 'out of the box'.
-  c. This is crucial: when asked about config file placement, select 'In dedicated config files`.
-  d. You can save as a preset, if you wish.
+    a) I selected manual rather than default.
+    b) For this template, I selected Router and Vuex, but I did _not_ select CSS Pre-processors, as postcss appears to be more-or-less supported 'out of the box'.
+    c) This is crucial: when asked about config file placement, select 'In dedicated config files`.
+    d) You can save as a preset, if you wish.
 2. Follow the instructions to `cd` into your new project and `npm install`.
 3. Also: `npm i -S tailwindcss postcss-import`
 4. Next, run: `./node_modules/.bin/tailwind init tailwind-config`. This creates tailwind-config.js in your root folder.
