@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto px-4 font-serif text-grey-darkest leading-normal text-left">
-      <img src="../assets/avatar_southpark.png" alt="" class="p-4">
+      <img src="../assets/avatar_southpark-min.png" alt="" class="p-4">
       <div class="card-grid">
       <div class="card m-4">
         <img class="card-image" src="https://tailwindcss.com/img/card-top.jpg">
