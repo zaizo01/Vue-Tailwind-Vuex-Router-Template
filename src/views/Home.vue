@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img src="../assets/logo.png">
-   <tailwind-test />>
+   <tailwind-test />
   </div>
 </template>
 
